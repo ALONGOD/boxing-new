@@ -1,0 +1,45 @@
+html {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo6gMJoNryncSU58da3mUBMpUFCY0nztFiVByBf7eNDbzxQyC_ErEmGXLnV9QpsTwAZY0&usqp=CAU');
+    text-align: center;
+    background-size: cover;
+    /* width: 90vw; */
+    /* height: 100vh; */
+}
+
+body p {
+    color: rgb(255, 60, 0);
+    white-space: nowrap;
+}
+
+.header {
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+.text {
+    max-width: 100vw;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+img {
+    size: fluid;
+    width: 100px;
+    height: 163.31px;
+    /* border-radius: 65%; */
+}
+
+img:hover {
+    transform: scale(1.5);
+    transition: 1000ms;
+}
+
+.reg {
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+    .pic-4 {
+        display: none;
+    }
+}
