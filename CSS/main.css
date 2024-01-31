@@ -64,5 +64,6 @@ img:hover {
 
     html {
         background-color: black;
+        background-image: none;
     }
 }
