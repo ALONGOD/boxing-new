@@ -20,7 +20,7 @@ body p {
 .header {
     text-align: center;
     text-decoration: underline;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .first-line {
@@ -60,5 +60,9 @@ img:hover {
 @media only screen and (max-width: 768px) {
     .pic-4 {
         display: none;
+    }
+
+    html {
+        background-color: black;
     }
 }
