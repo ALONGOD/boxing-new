@@ -2,6 +2,7 @@ html {
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo6gMJoNryncSU58da3mUBMpUFCY0nztFiVByBf7eNDbzxQyC_ErEmGXLnV9QpsTwAZY0&usqp=CAU');
     text-align: center;
     background-size: cover;
+    color: red;
     /* width: 90vw; */
     /* height: 100vh; */
 }
@@ -18,6 +19,7 @@ body p {
 
 .first-line {
     font-size: 25px;
+    color: red;
 }
 
 .text {
