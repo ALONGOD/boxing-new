@@ -1,69 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he" dir="rtl">
 
 <head>
+    <link rel="stylesheet" href="setup.css">
+    <style>
+        html {
+            background-color: black;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>גבריאל חדד אגרוף</title>
-    <link rel="stylesheet" href="CSS/main.css">
+    <title>Gabriel Hadad Boxing</title>
+</head>
 
-<body>
-    <div class="everything">
-        <p class="header">welcome to gabriut</p>
-        <img class="pic-1" onclick="img()" src="IMG/1.jpg">
-        <img class="pic-2" onclick="img()" src="IMG/2.jpg">
-        <img class="pic-3" onclick="img()" src="IMG/3.jpg">
-        <img class="pic-4" onclick="img()" src="IMG/4.jpg">
-        <img class="pic-5" onclick="img()" src="IMG/5.jpeg">
-        <img class="pic-6" onclick="img()" src="IMG/6.png">
-        <p class="first-line">קבוצות בוטיק עד 6 אנשים!!</p>
-        <p class="text">כרטיסיה 10 כניסות - 970₪ <br>
-            כרטיסיה 20 כניסות - 1760₪ <br>
-            כרטיסיה 30 כניסות - 2480₪ <br>
-            🥊 מחירים אטרקטיביים במנוי <br>
-
-        <div class="prices">
-            🥊 (קבוצת בוטיק עד 6 אנשים) מנוי אימון בשבוע <br>
-            370₪ לחודש <br>
-            700₪ לחודשיים <br>
-            990₪ לשלושה חודשים <br>
-            1800₪ לחצי שנה <br>
+<body onload="onInit()">
+    <div class="main-layout">
+        <h1></h1>
+        <div class="images">
+            <img onclick="imgClick(this)" src="IMG/1.jpg" alt="">
+            <img onclick="imgClick(this)" src="IMG/6.png" alt="">
+            <img onclick="imgClick(this)" src="IMG/2.jpg" alt="">
+            <!-- <img onclick="imgClick(this)" src="IMG/3.jpg" alt=""> -->
+            <!-- <img onclick="imgClick(this)" src="IMG/4.JPG" alt=""> -->
+            <img onclick="imgClick(this)" src="IMG/5.jpeg" alt="">
         </div>
-
-        <div class="prices">
-            🥊 שני אימונים בשבוע (קבוצות בוטיק עד 6 אנשים) <br>
-            * חודש - 700₪ <br>
-            * שלושה חודשים - 1800₪ (600 לחודש) <br>
-            * שישה חודשים - 3300₪ (550 לחודש) <br>
-            * שנה - 5750₪ (480 לחודש) <br>
-        </div>
-
-        <div class="prices">
-            🥊 שלושה אימונים בשבוע <br>
-            * חודש - 950₪ <br>
-            * שלושה חודשים - 2550₪ (850 לחודש) <br>
-            * שישה חודשים - 4800₪ (800 לחודש) <br>
-            * שנה - 8400₪ (700 לחודש) <br>
-        </div>
-        <div class="prices">
-            מחיר אימון אישי-180₪
-            <br>
-            10-1600₪
-            <br>
-            כל מנוי/כרטיסיה כוללת ייעוץ תזונה
-            <br>
-            מחיר אימון נסיון בקבוצה קטנה-70₪
-            <br>
-            💪 שנצליח ונהיה בריאים וחזקים
-        </div>
-        </p>
-        <p class="reg">להרשמה-גבריאל <br> 050-9772631</p>
-        <p class="reg">חנוך 24, תל אביב</p>
-
-
+        <div class="prices"></div>
+        <footer></footer>
     </div>
-</body>
 
-<script src="JS/main.js"></script>
+    <script src="js/main.js"></script>
+</body>
 
 </html>

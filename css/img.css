@@ -1,0 +1,37 @@
+img {
+    margin-inline-end: 10px;
+    max-width: 20vw;
+    height: 27vh;
+    display: inline;
+    transition: 1s;
+    z-index: 1;
+}
+
+.images {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+/* 
+img:nth-of-type(1) {
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+
+img:nth-of-type(2) {
+    grid-column: 1/1;
+    grid-row: 3/3;
+}
+
+img:nth-of-type(3) {
+    grid-column: 3/3;
+    grid-row: 1/1;
+}
+
+img:nth-of-type(3) {
+    grid-column: 3/3;
+    grid-row: 3/3;
+} */
